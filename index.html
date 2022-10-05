@@ -1,0 +1,21 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Video loading</title>
+    <link rel="stylesheet" href="./style.css">
+    <script src="./index.js" defer></script>
+</head>
+<body>
+    <div class="container">
+        <div class="video">
+            <button class="btn-video" onclick="videoStatus()" id="btn-video"><img width="30" src="./Play.svg" alt=""></button>
+            <video id="video" src="https://landing-vendas.s3.amazonaws.com/landing-fria/Boas+vindas.mp4">
+            </video>
+            <button  class="btn-restart" onclick="restartVideo()" id="btn-restart">ASSISTIR NOVAMENTE?</button>
+        </div>
+    </div>
+</body>
+</html>
